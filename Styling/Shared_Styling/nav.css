@@ -1,8 +1,10 @@
 nav{
-    background: rgb(0, 152, 172);
+    background: rgb(241, 241, 241);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 0.5px solid grey;
+    margin: 0 0 3px 0;
 }
 
 .navList{
@@ -13,6 +15,7 @@ nav{
 
 .navName_Container p{
     font-family: Arial, Helvetica, sans-serif;
+    color: #0c0c0c;
 }
 
 nav li{
@@ -21,7 +24,7 @@ nav li{
 }
 
 nav a{
-    color:black;
+    color: #0c0c0c;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }

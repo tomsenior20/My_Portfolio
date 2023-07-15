@@ -1,15 +1,16 @@
 .firstSection{
+    background: rgb(49, 49, 49);
     min-width: 100%;
     min-height: 500px;
 }
-.welcometitleContainer{
-    min-width: 100%;
-    background: rgb(241, 241, 241);
+
+.welcometitleContainer p{
+    color:#f1f1f1;
+    text-shadow: 10px #f1f1f1;
 }
 
 .localTimeContainer{
     height: 20%;
-    background: rgb(241, 241, 241);
 }
 
 .timebutton{
@@ -26,4 +27,40 @@
 .localBSTTime{
     color:#000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondSection{
+    padding: 10rem;
+}
+
+.image1{
+    min-height: 150px;
+    min-width: 150px;
+    width: 360px;
+    height: 360px;
+}
+
+.images{
+   height: 100%;
+   width: 100%;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+}
+
+@media  screen and (max-width: 710px) {
+    .firstSection{
+        flex-direction: column !important;
+        min-height: 700px;
+    }
+    .welcomeimagecontainer{
+        margin: auto;
+        width: 100%;
+    }
+    .image1{
+        width:100%;
+        height: 100%;
+    }
 }
