@@ -1,0 +1,29 @@
+.firstSection{
+    min-width: 100%;
+    min-height: 500px;
+}
+.welcometitleContainer{
+    min-width: 100%;
+    background: rgb(241, 241, 241);
+}
+
+.localTimeContainer{
+    height: 20%;
+    background: rgb(241, 241, 241);
+}
+
+.timebutton{
+    background:rgb(68, 65, 65);
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.localBSTTime{
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+}

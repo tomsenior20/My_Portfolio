@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
+    <!--  Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <!-- Shared And Default Styling -->
     <link rel="stylesheet" href="Styling/default.css">
     <link rel="stylesheet" href="Styling/Shared_Styling/nav.css">
+    <!-- Pages Styling  -->
+    <link rel="stylesheet" href="Styling/Pages_Styling/index.css">
 </head>
 
 <body>
@@ -34,6 +38,21 @@
             </ul>
         </div>
     </nav>
+    <div class="firstSection container-fluid d-flex flex-column">
+        <div class="welcometitleContainer col  d-flex flex-column justify-content-center align-items-center">
+            <p class="fs-2 mx-0 my-4">Welcome to my Portfolio</p>
+            <p class="fs-4 mx-0 my-4">This page, is to illustrate my abilties and demonstrate my skills</p>
+        </div>
+        <!-- Local Time Generate via JS -->
+        <div id="localTime"
+            class="mx-0 p-5 localTimeContainer d-flex flex-row justify-content-around align-items-center">
+            <div id="timeContainer" class="timeButtonContainer col-6 justify-content-center align-items-center d-flex">
+                <button class="timebutton py-3 px-4" id="timeButton">Click For Local Time</button>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript links -->
+    <script src="Javascript/time.js"></script>
 </body>
 
 </html>
