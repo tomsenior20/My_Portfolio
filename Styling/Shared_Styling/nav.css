@@ -1,0 +1,27 @@
+nav{
+    background: rgb(0, 152, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navName_Container p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
