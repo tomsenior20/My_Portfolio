@@ -11,9 +11,11 @@ document.getElementById("timeButton").addEventListener("click", (e) => {
 
 function getTime() {
     var time = "";
-    localBSTTime = new Date().toLocaleDateString();
-    time += `<div class="col-6 justify-content-start align-items-center d-flex"><p class="localBSTTime fs-4 my-0 mx-3"> ${localBSTTime} </p></div>`;
-    document.getElementById("localTime").insertAdjacentHTML("beforeend", time);
+    todaysDate = new Date().toLocaleDateString();
+    localBSTTime = new Date().toLocaleTimeString("EN-GB");
+    returnedString = todaysDate + " " + localBSTTime;
+    time += `<div class="col-6 justify-content-start align-items-center d-flex"><p class="localBSTTime fs-4 my-0 mx-3"> ${returnedString} </p></div>`;
+    document.getElementById("secondSection").insertAdjacentHTML("beforeend", time);
     document.getElementById("timeContainer").classList.remove("justify-content-center");
     document.getElementById("timeContainer").classList.add("justify-content-end");
     timeFunctionRan = true;
