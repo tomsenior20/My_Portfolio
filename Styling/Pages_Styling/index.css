@@ -2,6 +2,11 @@
     background: rgb(49, 49, 49);
     min-width: 100%;
     min-height: 500px;
+    border-radius: 0 0 10rem 0;
+    -webkit-border-radius: 0 0 10rem 0;
+    -moz-border-radius: 0 0 10rem 0;
+    -ms-border-radius: 0 0 10rem 0;
+    -o-border-radius: 0 0 10rem 0;
 }
 
 .welcometitleContainer p{
@@ -31,7 +36,6 @@
 }
 
 .secondSection{
-    background: rgba(243, 243, 243, 0.9);
     margin: 10px 0 0 0;
     padding: 3rem;
 }

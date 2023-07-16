@@ -20,24 +20,25 @@
 </head>
 
 <body>
-    <nav class="p-3">
+    <nav class="p-3 d-flex">
         <div class="navName_Container col-3 d-flex justify-content-center align-items-center">
             <p class="fs-3 my-0">Tom Senior</p>
         </div>
         <div class="navigationList col-9 d-flex justify-content-end align-items-center">
-            <ul class="my-0 navList">
+            <ul class="my-0 navList d-flex">
                 <li>
-                    <a class="fs-5" href="#">Home</a>
+                    <a class="fs-5" href="#" aria-label="Home Link">Home</a>
                 </li>
                 <li>
-                    <a class="fs-5" href="#">Contact</a>
+                    <a class="fs-5" href="#" aria-label="Contact Link">Contact</a>
                 </li>
                 <li>
-                    <a class="fs-5" href="#">About Me</a>
+                    <a class="fs-5" href="#" aria-label="About Link">About Me</a>
                 </li>
             </ul>
         </div>
     </nav>
+
     <div class="firstSection container-fluid d-flex p-5 flex-row m-auto">
         <div class="welcomeimagecontainer col-6 p-3  d-flex justify-content-center align-items-center">
             <div class="image1  imageContainers">
@@ -51,8 +52,8 @@
     </div>
     <div id="secondSection" class="secondSection container-fluid d-flex flex-row justify-content-center m-auto">
         <!-- Local Time Generate via JS -->
-        <div id="timeContainer" class="timeButtonContainer col-6 justify-content-center align-items-center d-flex">
-            <button class="timebutton py-3 px-4 fs-5" id="timeButton">Click For Local Time</button>
+        <div id="timeContainer" class="timeButtonContainer p-3 col-6 justify-content-center align-items-center d-flex">
+            <button class="timebutton py-3 px-4" id="timeButton">Click for Local Time</button>
         </div>
     </div>
     <!-- Javascript links -->
