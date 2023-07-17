@@ -1,7 +1,8 @@
 .firstSection{
     position: relative;
     min-width: 100%;
-    min-height: 500px;
+    min-height: 400px;
+    margin: 4rem auto;
     border-radius: 0 0 10rem 0;
     -webkit-border-radius: 0 0 10rem 0;
     -moz-border-radius: 0 0 10rem 0;
@@ -41,7 +42,7 @@
 }
 
 .secondSection{
-    margin: 10px 0 0 0;
+    margin: 2rem auto;
     padding: 3rem;
 }
 
