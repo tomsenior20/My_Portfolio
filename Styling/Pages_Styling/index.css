@@ -67,9 +67,24 @@
     .firstSection{
         flex-direction: column !important;
         min-height: 700px;
+        margin: 2rem auto;
+    }
+    .secondSection{
+        margin: 1rem auto;
+        flex-direction: column !important;
     }
     .welcomeimagecontainer{
         margin: auto;
+        width: 100%;
+    }
+    #timeContainer,#timeString{
+        margin:0.5rem auto;
+        justify-content: center !important;
+    }
+    #timeString{
+        width: 100%;
+    }
+    #timeContainer{
         width: 100%;
     }
     .image1{
