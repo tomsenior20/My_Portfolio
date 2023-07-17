@@ -1,5 +1,5 @@
 .firstSection{
-    background: rgb(49, 49, 49);
+    position: relative;
     min-width: 100%;
     min-height: 500px;
     border-radius: 0 0 10rem 0;
@@ -10,8 +10,14 @@
 }
 
 .welcometitleContainer p{
-    color:#f1f1f1;
+    color: var(--font-color);
     text-shadow: 10px #f1f1f1;
+}
+
+.welcomeTitle{
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.007em;
 }
 
 .localTimeContainer{
@@ -19,18 +25,17 @@
 }
 
 .timebutton{
-    background:rgb(68, 65, 65);
-    color:#fff;
+    background: var(--font-color);
+    border:none;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 0.07em;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
 }
 
 .localBSTTime{
-    color:#000;
+    color: var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
     overflow-wrap: break-word;
 }

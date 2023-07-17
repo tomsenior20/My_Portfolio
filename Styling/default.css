@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
-html, body{
-    overflow-x: hidden;
+html{
+    background: #0000;
+}
+
+body{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+
+:root{
+    --font-color:  #a1a1a6;
+    --bannerBackground :#1d1d1f;
 }
