@@ -4,8 +4,7 @@ footer{
     z-index: 1;
     bottom: 0;
     width: 100%;
-    margin-top: auto;
-    z-index: 0;
+    margin: 2rem auto 0 auto;
 }
 
 .operatingDate, .copyrightContainer{
