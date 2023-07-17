@@ -15,6 +15,7 @@
     <!-- Shared And Default Styling -->
     <link rel="stylesheet" href="Styling/default.css">
     <link rel="stylesheet" href="Styling/Shared_Styling/nav.css">
+    <link rel="stylesheet" href="Styling/Shared_Styling/footer.css">
     <!-- Pages Styling  -->
     <link rel="stylesheet" href="Styling/Pages_Styling/index.css">
 </head>
@@ -48,9 +49,20 @@
             <button class="timebutton py-3 px-4" id="timeButton">Click for Local Time</button>
         </div>
     </div>
+    <footer class="d-flex justify-content-between p-3">
+        <div class="copyrightContainer d-flex flex-row justify-content-center align-items-center my-0 mx-4 p-2">
+            <span class="d-flex fs-5">&copy;</span>
+            <p class="copyrightContainer fs-5 m-0">Tom Senior</p>
+        </div>
+        <div id="operatingTime"
+            class="operatingDateContainer my-0 mx-4 p-2 d-flex justify-content-center align-items-center">
+            <!-- Changes Dynamically per year -->
+        </div>
+    </footer>
     <!-- Javascript links -->
     <script src="Javascript/time.js"></script>
-    <script src="Javascript/nav.js"></script>
+    <script src="Javascript/SharedJS/nav.js"></script>
+    <script src="Javascript/SharedJS/footer.js"></script>
 </body>
 
 </html>

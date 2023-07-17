@@ -1,0 +1,17 @@
+footer{
+    background: rgb(241, 241, 241);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.operatingDate, .copyrightContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c0c0c;
+}
+
+@media  screen and (max-width: 500px) {
+    .copyrightContainer,.operatingDateContainer{
+        margin: 0 0.5rem !important;
+    }
+}
