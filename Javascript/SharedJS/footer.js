@@ -10,3 +10,4 @@ const getOperatingYear = () => {
     operatingYear += `<p class="operatingDate fs-6 m-0">Operating on ${currentYear}</div>`
     document.getElementById("operatingTime").innerHTML = operatingYear;
 }
+

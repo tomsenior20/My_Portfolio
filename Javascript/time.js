@@ -14,7 +14,11 @@ const getTime = () => {
     const localBSTTime = new Date().toLocaleTimeString("en-GB");
     const returnedString = `${todaysDate} ${localBSTTime}`;
 
-    const timeString = `<div id="timeString" class="col-6 justify-content-start align-items-center d-flex"><p class="localBSTTime fs-4 my-0 mx-3">${returnedString}</p></div>`;
+    const timeString = `
+        <div id="timeString" class="col-6 justify-content-start align-items-center d-flex fade-in">
+            <p class="localBSTTime fs-4 my-0 mx-3">${returnedString}</p>
+        </div>`;
+
     document.getElementById("secondSection").insertAdjacentHTML("beforeend", timeString);
 
     const timeContainer = document.getElementById("timeContainer");
@@ -30,14 +34,12 @@ const getTime = () => {
 
 
 const hideTime = () => {
-    const timeSection = document.getElementById("timeString");
-    timeSection.remove();
-
-    const timeContainer = document.getElementById('timeContainer');
-    timeContainer.classList.add("justify-content-center");
-
+    // Remove the timeString element
+    document.getElementById("timeString").remove();
+    // Center the timeContainer element
+    document.getElementById('timeContainer').classList.add("justify-content-center");
+    // Reset the timeFunctionRan flag
     timeFunctionRan = false;
-
-    const timeButton = document.getElementById("timeButton");
-    timeButton.innerHTML = "Click for Local Time";
+    // Update the text of the timeButton element
+    document.getElementById("timeButton").innerHTML = "Click for Local Time";
 }
