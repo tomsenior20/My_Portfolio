@@ -1,6 +1,5 @@
 nav{
     background: var(--bannerBackground);
-    display: flex;
     position: sticky;
     z-index: 9997;
     top: 0;
